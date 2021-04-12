@@ -1,4 +1,6 @@
-# Jltml Jltml
+# Jack's Homebrew tap
+
+*I have no idea what I'm doing*
 
 ## How do I install these formulae?
 
