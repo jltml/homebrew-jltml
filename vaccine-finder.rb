@@ -7,8 +7,8 @@ class VaccineFinder < Formula
 
   bottle do
     root_url "https://github.com/jltml/homebrew-tap/releases/download/vaccine-finder-0.1.5"
-    sha256                               catalina:     "b0cdd81830548a392bd2fb25163aa545a069dcc65abffdf60eaed11d47d3206b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "af0b2b67377a08add4de95f5f5da532c003b3d7be5047001a11148e6ff47c68e"
+    sha256                               catalina:     "f1f3eb49b4714233a5b54987d9bd224bf90c1c07d8405c9b044f3161087e8a85"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2969e1bbab057c3db771a11ff3ccaf87a51cca560dfce886fcd83576de7f9242"
   end
 
   uses_from_macos "curl"
