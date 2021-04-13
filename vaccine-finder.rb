@@ -20,6 +20,8 @@ class VaccineFinder < Formula
     system "gem", "install", "#{name}-#{version}.gem"
     bin.install libexec/"bin/#{name}"
     bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
+    system "gem", "pristine", "curb"
+    system "gem", "pristine", "racc"
   end
 
   test do
