@@ -9,7 +9,7 @@ class VaccineFinder < Formula
     sha256 big_sur: "8807de2d08caac2a96fb0fbd965aa8d8b5422816baa84fc4adeb17e7e127e94f"
   end
 
-  depends_on "curl"
+  uses_from_macos "curl"
   uses_from_macos "ruby"
 
   def install
