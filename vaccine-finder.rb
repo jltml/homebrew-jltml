@@ -10,6 +10,7 @@ class VaccineFinder < Formula
   end
 
   uses_from_macos "ruby"
+  depends_on "curl"
 
   def install
     ENV["GEM_HOME"] = libexec
