@@ -1,5 +1,5 @@
 class VaccineFinder < Formula
-  desc "Get notified of COVID vaccine appointments from the command-line (still very much in beta)"
+  desc "Get notified of COVID vaccine appointments from the command-line (beta)"
   homepage "https://github.com/jltml/vaccine-finder"
   url "https://github.com/jltml/vaccine-finder/archive/refs/tags/v0.1.5.tar.gz"
   sha256 "45232e2b737a6048396840d27b2a6f3e67af7423053220b9e9c57ad0972e7078"
