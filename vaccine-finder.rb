@@ -9,8 +9,8 @@ class VaccineFinder < Formula
     sha256 big_sur: "8807de2d08caac2a96fb0fbd965aa8d8b5422816baa84fc4adeb17e7e127e94f"
   end
 
-  uses_from_macos "ruby"
   depends_on "curl"
+  uses_from_macos "ruby"
 
   def install
     ENV["GEM_HOME"] = libexec
