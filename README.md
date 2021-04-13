@@ -4,9 +4,9 @@
 
 ## How do I install these formulae?
 
-`brew install jltml/jltml/<formula>`
+`brew install jltml/tap/<formula>`
 
-Or `brew tap jltml/jltml` and then `brew install <formula>`.
+Or `brew tap jltml/tap` and then `brew install <formula>`.
 
 ## Documentation
 
