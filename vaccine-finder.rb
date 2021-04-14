@@ -6,9 +6,9 @@ class VaccineFinder < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/jltml/homebrew-tap/releases/download/vaccine-finder-0.1.6"
-    sha256 cellar: :any_skip_relocation, catalina:     "2053f3f3f79f0db2753e926c623bc2a680ecd769e82b027822386e5e4ad4685b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "3eeb4fe8b1ebb7fdd03b5b0efb821fac078ca487f1ce1f2101619b7b90865d73"
+    root_url "https://github.com/jltml/homebrew-tap/releases/download/vaccine-finder-0.1.7"
+    sha256 cellar: :any_skip_relocation, catalina:     "1845827bc0fcabe9e790b7cdde8acc44b7b5fcc298e7fdc37f9bcaa547f7c5a6"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "52b3789016168fd6e20f4e3ecdc0f7159dd5308e4a651e9e8d1cdb1e94af68b3"
   end
 
   uses_from_macos "curl"
