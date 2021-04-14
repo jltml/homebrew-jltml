@@ -2,7 +2,8 @@ class VaccineFinder < Formula
   desc "Get notified of COVID vaccine appointments from the command-line (beta)"
   homepage "https://github.com/jltml/vaccine-finder"
   url "https://github.com/jltml/vaccine-finder/archive/refs/tags/v0.1.6.tar.gz"
-  license ""
+  sha256 "67db82650cdd7ca121fdcf01ea1b667a1766417bbb387332d9036b2092687061"
+  license "MIT"
 
   uses_from_macos "curl"
   uses_from_macos "ruby"
