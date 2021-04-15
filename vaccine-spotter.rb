@@ -6,9 +6,9 @@ class VaccineSpotter < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/jltml/homebrew-tap/releases/download/vaccine-spotter-0.2.0"
-    sha256 cellar: :any_skip_relocation, catalina:     "692a755077caf1a5782f848e7a7968625eadf92ef0c082666cdbfb5c73250ba2"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "0cddf117ac76235e87f212a690726f00966a52d3006f1ac6394871208f41c593"
+    root_url "https://github.com/jltml/homebrew-tap/releases/download/vaccine-spotter-0.2.1"
+    sha256 cellar: :any_skip_relocation, catalina:     "7138460f015d2f43a719e9fffb0f8bd0f3cea4da4edfeaf4c85077224a458e06"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "c45c9866eb7f33f50fc36059dfb2e41dfabde00d3df2828687ca4e2d04e1c3fe"
   end
 
   uses_from_macos "curl"
