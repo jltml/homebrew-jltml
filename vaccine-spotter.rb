@@ -1,8 +1,8 @@
 class VaccineSpotter < Formula
   desc "Get notified of COVID vaccine appointments from the command-line (beta)"
   homepage "https://github.com/jltml/vaccine-spotter-cli"
-  url "https://github.com/jltml/vaccine-finder/archive/refs/tags/v0.1.8.tar.gz"
-  sha256 "c3116fbfa334d5b8bbc5bf628762ab620f43bb3bf483529273894be19bfea435"
+  url "https://github.com/jltml/vaccine-finder/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "2d53bf0b5c79e4ff79cdf03ab04d8791f518aa5038e05acac044b879efc90611"
   license "MIT"
 
   bottle do
