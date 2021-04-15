@@ -1,6 +1,6 @@
 # Jack's Homebrew tap
 
-*I have no idea what I'm doing*
+*✨ I have no idea what I'm doing ✨*
 
 ## How do I install these formulae?
 
