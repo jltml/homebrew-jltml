@@ -1,8 +1,8 @@
 class Devhints < Formula
   desc "Get notified of COVID vaccine appointments from the command-line (beta)"
   homepage "https://github.com/jltml/devhints-cli"
-  url "https://github.com/jltml/devhints-cli/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "3bb220261481b3ebb646c45750480d69feb338867ae1b6d6b12c73127e4df114"
+  url "https://github.com/jltml/devhints-cli/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "0457f6ad1a305459c865079aa8b869f422e5f28f1f56ffd161684860808fc8d9"
   license "MIT"
 
   bottle do
