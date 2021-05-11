@@ -5,6 +5,12 @@ class Devhints < Formula
   sha256 "3bb220261481b3ebb646c45750480d69feb338867ae1b6d6b12c73127e4df114"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/jltml/homebrew-tap/releases/download/devhints-0.1.1"
+    sha256 cellar: :any_skip_relocation, catalina:     "18df46b65eef95dcf814466fb3e06d072c4635fb9b47d7934d5bdb89e945de1f"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "7e3e71fd92fa59fd8c16eb265ae12ad1050cea94d838f0c7720094e0eb713c48"
+  end
+
   uses_from_macos "ruby"
 
   def install
