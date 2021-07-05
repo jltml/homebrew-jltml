@@ -1,8 +1,8 @@
 class Lyricsender < Formula
   desc "Send lyrics, line-by-line, using iMessage"
   homepage "https://github.com/jltml/lyricsender"
-  url "https://github.com/jltml/lyricsender/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "aa8230ee4884b91cbb9eeac74456e790dbc9661109fb1413cea56714418a98ff"
+  url "https://github.com/jltml/lyricsender/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "d4cdd3ac32f864088f145d92ebb552b6af90ad78729eebccf83656efd1d60748"
   license "MIT"
 
   uses_from_macos "libxml2" => :build
