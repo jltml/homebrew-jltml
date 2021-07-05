@@ -5,6 +5,12 @@ class Lyricsender < Formula
   sha256 "b3a4880737d727ed17101fcbb5680456bb5be3c985a30e864043319998fd4de3"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/jltml/homebrew-tap/releases/download/lyricsender-0.1.1"
+    sha256                               catalina:     "6810808815e27868908740351070993167c7a6188974990acbcbf5f88960b62e"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "978ce9b2f0b9eafe1b9b5155bcfcd3827983ff5ddfa42996bf5c3f55e155abf5"
+  end
+
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
   uses_from_macos "ruby"
