@@ -5,6 +5,7 @@ class Lyricsender < Formula
   sha256 "d4cdd3ac32f864088f145d92ebb552b6af90ad78729eebccf83656efd1d60748"
   license "MIT"
 
+  depends_on :macos
   uses_from_macos "libxml2" => :build
   uses_from_macos "libxslt" => :build
   uses_from_macos "ruby"
