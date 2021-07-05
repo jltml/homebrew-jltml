@@ -5,9 +5,9 @@ class Lyricsender < Formula
   sha256 "aa8230ee4884b91cbb9eeac74456e790dbc9661109fb1413cea56714418a98ff"
   license "MIT"
 
-  uses_from_macos "ruby"
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
+  uses_from_macos "ruby"
 
   def install
     ENV["GEM_HOME"] = libexec
