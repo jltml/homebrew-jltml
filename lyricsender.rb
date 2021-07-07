@@ -25,6 +25,14 @@ class Lyricsender < Formula
     bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
   end
 
+  def caveats
+    <<~EOS
+      A quick note: if you get weird things like "Ignoring nokogiri-1.11.7
+      because its extensions are not built", try building from source:
+        `brew install lyricsender --build-from-source`.
+    EOS
+  end
+
   test do
     assert_equal "lyricsender v#{version}", shell_output("#{bin}/lyricsender --version").strip
   end
