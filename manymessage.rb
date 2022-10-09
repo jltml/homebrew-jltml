@@ -11,7 +11,7 @@ class Manymessage < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "1fb5629cb8cdc580753faf39193c5f9d27b9b26a81d27c468fd8b0dc052af018"
   end
 
-  uses_from_macos "curl"
+  depends_on :macos
   uses_from_macos "ruby"
 
   resource "contacts-cli" do
@@ -21,9 +21,11 @@ class Manymessage < Formula
 
   def install
     ENV["GEM_HOME"] = libexec
+    ENV["GEM_PATH"] = libexec
     system "gem", "build", "#{name}.gemspec"
-    system "gem", "install", "#{name}-#{version}.gem", "--no-document"
+    system "gem", "install", "-V", "#{name}-#{version}.gem", "--no-document"
     (libexec/"lib").install Dir["lib/*"]
+    system "gem", "pristine", "-V", "--all"
     bin.install "exe/#{name}"
     bin.env_script_all_files(libexec/"bin", GEM_HOME: ENV["GEM_HOME"])
     (libexec/"exe").install resource("contacts-cli")
