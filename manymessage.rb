@@ -5,6 +5,12 @@ class Manymessage < Formula
   sha256 "cd8e051bafad21e69147216ad8d0af7cd5333ae58308954517d0bb3f9b0c4965"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/jltml/homebrew-tap/releases/download/manymessage-0.1.2"
+    sha256                               big_sur:      "8c6a03edd0175ee369778efa0167f3ff07095abe589856ab3677e48fcdccc7ef"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "1fb5629cb8cdc580753faf39193c5f9d27b9b26a81d27c468fd8b0dc052af018"
+  end
+
   uses_from_macos "curl"
   uses_from_macos "ruby"
 
