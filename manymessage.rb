@@ -1,8 +1,8 @@
 class Manymessage < Formula
   desc "Send mass texts with iMessage!"
   homepage "https://github.com/jltml/manymessage"
-  url "https://github.com/jltml/manymessage/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "b6670071c49dc54b7f6a64b06042151d4007b8ef680824c8ccbe4497ba919e3b"
+  url "https://github.com/jltml/manymessage/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "cd8e051bafad21e69147216ad8d0af7cd5333ae58308954517d0bb3f9b0c4965"
   license "MIT"
 
   uses_from_macos "curl"
