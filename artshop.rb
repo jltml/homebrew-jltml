@@ -1,8 +1,8 @@
 class Artshop < Formula
   desc "Command-line interface for Max's art store at mapellentz.art"
   homepage "https://github.com/jltml/artshop"
-  url "https://github.com/jltml/artshop/archive/refs/tags/v0.0.3.tar.gz"
-  sha256 "f5b85f565ba6fd6009da149638ac493e213ccff06830f8ad26b42441e8325c18"
+  url "https://github.com/jltml/artshop/archive/refs/tags/v0.0.4.tar.gz"
+  sha256 "f2ccaae08173451c1db85755fd3a500136bf96e17d867856c9a14c5c4d667e18"
   license "MIT"
 
   depends_on "ruby"
@@ -20,6 +20,6 @@ class Artshop < Formula
   end
 
   test do
-    system "true"
+    assert_equal "artshop #{version}", shell_output("#{bin}/artshop --version").lines.first.strip
   end
 end
