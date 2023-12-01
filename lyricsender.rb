@@ -4,6 +4,7 @@ class Lyricsender < Formula
   url "https://github.com/jltml/lyricsender/archive/refs/tags/v0.1.1.tar.gz"
   sha256 "d4cdd3ac32f864088f145d92ebb552b6af90ad78729eebccf83656efd1d60748"
   license "MIT"
+  revision 1
 
   bottle do
     root_url "https://github.com/jltml/homebrew-tap/releases/download/lyricsender-0.1.1"
@@ -11,9 +12,9 @@ class Lyricsender < Formula
   end
 
   depends_on :macos
+  depends_on "ruby"
   uses_from_macos "libxml2" => :build
   uses_from_macos "libxslt" => :build
-  uses_from_macos "ruby"
 
   def install
     ENV["GEM_HOME"] = libexec
