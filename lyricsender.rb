@@ -6,11 +6,6 @@ class Lyricsender < Formula
   license "MIT"
   revision 1
 
-  bottle do
-    root_url "https://github.com/jltml/homebrew-tap/releases/download/lyricsender-0.1.1"
-    sha256 catalina: "da911344f7001e539cb23cfa36c919e062fb0a495f68a88e145ec66a125ef159"
-  end
-
   depends_on :macos
   depends_on "ruby"
   uses_from_macos "libxml2" => :build
